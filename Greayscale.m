@@ -1,5 +1,5 @@
 % Step 1: Read the original image
-originalImage = imread('design.jpg'); 
+originalImage = imread('image\design.jpg'); 
 
 % Step 2: Convert the image to grayscale
 grayImage = rgb2gray(originalImage);

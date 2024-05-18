@@ -4,7 +4,7 @@ clear all
 close all
 
 % Step 1: Read the original image
-originalImage = imread('girl.jpg'); 
+originalImage = imread('image\girl.jpg'); 
 
 
 % Step 2: Read the converted image

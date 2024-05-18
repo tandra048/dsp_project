@@ -2,8 +2,8 @@ clear all;
 close all;
 clc
 
-img1 = imread('colorful.jpg');
-img2 = imread('yellow.jpg');
+img1 = imread('image\colorful.jpg');
+img2 = imread('image\yellow.jpg');
 img2 = imresize(img2, size(img1(:,:,1)));  % Resize img2 to the size of img1
 img_add = imadd(img1, img2);
 img_sub = imsubtract(img1, img2);

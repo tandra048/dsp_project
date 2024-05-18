@@ -1,5 +1,5 @@
 % Read the image
-inputImage = imread('ju.jpg'); % Replace with your image file name
+inputImage = imread('image\ju.jpg'); % Replace with your image file name
 
 % Display the original image
 subplot(1,2,1);

@@ -1,7 +1,7 @@
 clear all;
 close all;
 clc
-img = imread('yellow.jpg');
+img = imread('image\yellow.jpg');
 if size(img, 3) == 3
     img = rgb2gray(img);
 end

@@ -1,5 +1,5 @@
 % Step 1: Read the original image
-originalImage = imread('marguerite.jpg'); 
+originalImage = imread('image\marguerite.jpg'); 
 
 % Step 2: Resize the image
 resizedImage = imresize(originalImage, [256, 256]); % Resize to 256x256 pixels

@@ -2,7 +2,7 @@ clear all
 close all
 clc
 
-I=imread('bird.jpg');
+I=imread('image\bird.jpg');
 figure
 subplot(221)
 imshow(I)

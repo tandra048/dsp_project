@@ -1,5 +1,5 @@
 % Read an image
-originalImage = imread('flower.jpg');
+originalImage = imread('image\flower.jpg');
 
 % Convert the image to grayscale if it is not already
 if size(originalImage, 3) == 3
